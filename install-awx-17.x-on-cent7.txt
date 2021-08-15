@@ -1,0 +1,4 @@
++ Re-imaged CentOS 7.9
++ Install needed packages:
+	- [root@den-awx-01 tduong]# yum install -y gcc gcc-c++ git ansible nodejs gettext device-mapper-persistent-data lvm2 bzip2 python3-pip
+	
