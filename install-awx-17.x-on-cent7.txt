@@ -12,3 +12,5 @@ https://www.youtube.com/watch?v=kKnJo6C9ufY
 	- openssl rand -base64 30
 		DwbfgST0IJZJduJDg3XukTLe88JxO3bvKIGgV6sx
 	-  
+- vi awx/installer/inventory 
+- ansible-playbook -i awx/installer/inventory awx/installer/install.yml -v
