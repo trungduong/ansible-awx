@@ -1,4 +1,14 @@
+https://www.youtube.com/watch?v=kKnJo6C9ufY
+
 + Re-imaged CentOS 7.9
 + Install needed packages:
 	- [root@den-awx-01 tduong]# yum install -y gcc gcc-c++ git ansible nodejs gettext device-mapper-persistent-data lvm2 bzip2 python3-pip
-	
+ 	- Install docker-ce (this step has been done in the re-imaging step)	
+	- start Docker
+	- pip3 install docker-compose. Get an error: Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-boqs0uue/cryptography/
+
+		*** Fixed: pip3 install --upgrade setuptools && pip3 install --upgrade pip
+ 	- cd /opt && git clone https://github.com/ansible/awx.git
+	- openssl rand -base64 30
+		DwbfgST0IJZJduJDg3XukTLe88JxO3bvKIGgV6sx
+	-  
